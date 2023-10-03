@@ -1,1 +1,49 @@
-<!DOCTYPE html> <html> <head> <title>Mi primera página web</title> </head> <body> <h1>Bienvenido!</h1> <p>Esta es una página web muy básica creada con HTML.</p> <h2>Contenido</h2> <ul> <li>Información general</li> <li>Servicios</li> <li>Contacto</li> </ul> <h2>Información general</h2> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel sapien in lorem aliquet faucibus eu vel ex. Duis sed porta lectus. Sed pretium lectus eget est malesuada, vel aliquam augue tincidunt.</p> <h2>Contacto</h2> <p>Dirección: Calle Falsa 123</p> <p>Teléfono: +34 612345678</p> <p>Correo: info@miweb.com</p> </body> </html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi página web</title>
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a mi página web</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Acerca de</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Acerca de mí</h2>
+      <p>Soy un entusiasta del desarrollo web y me encanta aprender nuevos lenguajes y tecnologías.</p>
+    </section>
+
+    <section>
+      <h2>Contacto</h2>
+      <p>Puedes contactarme a través de este formulario:</p>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea><br>
+
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Mi página web</p>
+  </footer>
+</body>
+</html>
